@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+
+/* this is a comment for css */
+
+html,body{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15%;
+
+}
+
+#horizontal-line {
+    height: 2px;
+    width: 1500px;
+    background-color: rgb(201, 201, 201);
+}
+
+li, a {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li, a {
+    display: inline-block;
+    padding: 0px 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links a:hover {
+    color: #5959ff;
+}
+
+
+.one {
+    background-color: white;
+    height: 90vh;
+    background-image: url(images/homebackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sectiononecontent {
+    font-family: 'Roboto';
+    position: relative;
+}
+
+.two {
+    background-color: #f0f0f0;
+    height: 90vh;
+    background-image: url(images/usdcbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sectiontwocontent {
+    font-family: 'Roboto';
+    position: relative;
+}
+
+.three {
+    background-color: white;
+    height: 90vh;
+    background-image: url(images/btcbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sectionthreecontent {
+    font-family: 'Roboto';
+    position: relative;
+}
+
+.four {
+    background-color: #f0f0f0;
+    height: 90vh;
+    background-image: url(images/ethbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sectionfourcontent {
+    font-family: 'Roboto';
+    position: relative;
+}
+
+.five {
+    background-color: white;
+    height: 90vh;
+    background-image: url(images/linkbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sectionfivecontent {
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.six {
+    background-color: #f0f0f0;
+    height: 90vh;
+    background-image: url(images/qntbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sectionsixcontent {
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.seven {
+    background-color: white;
+    height: 90vh;
+}
+
+.sectionsevencontent {
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+footer {
+    background-color: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Roboto";
+    padding-top: 40px;
+    color: #f0f0f0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a:hover {
+    color: #5959ff;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
